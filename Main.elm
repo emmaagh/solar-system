@@ -8,16 +8,6 @@ import Planet exposing (..)
 import Random as Random
 import Debug as Debug
 
-{-
-TODO
-  use better calculation for size/position of planet
-  make planets / sun look better (textured colour?)
-  add occassional random comet? Will have to use Model, possibly also Cmd
-  add moons?
-  add planet rings
-  make planets show when in front of sun / hide when behind
--}
-
 main =
   App.program
     { init = init
